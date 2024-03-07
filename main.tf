@@ -2,10 +2,10 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "rg" {
-  name     = "rg-FEMADEx"
-  location = "East US"
-}
+# resource "azurerm_resource_group" "rg" {
+#   name     = "rg-FEMADEx"
+#   location = "East US"
+# }
 
 # resource "azurerm_virtual_network" "vnet" {
 #   name                = "femadex"
