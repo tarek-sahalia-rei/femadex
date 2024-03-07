@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-FEMADEx"
+  name     = "rg-FEMADEx-test"
   location = "East US"
 }
 
